@@ -19,8 +19,15 @@ In this file, we handle data synthesis using the HOWSO algorithm. The main compo
 This file's role is generating the final graph that show the distribution of Jaccard coeffcient values for each dataset.
 
 ## Steps for using Tetrad
-To use this project, do the following:
-1. Step 1: [Description of step]
-2. Step 2: [Description of step]
-3. Example usage: `[example command or code snippet]`
+Tetrad was used for generating the causal graphs.
+To use Tetrad, do the following:
+1. Step 1: [Install Tetrad](https://github.com/cmu-phil/tetrad). Use Tetrad 7.5.0-0
+2. Step 2: Once Tetrad gui is installed, open a project and follow the steps mentioned in the [Tutorial](https://rawgit.com/cmu-phil/tetrad/development/tetrad-gui/src/main/resources/resources/javahelp/manual/tetrad_tutorial.html) to set up the data.
+3. Select GFCI from the algorithm list and proceed to select the parameters as shown here
+![image](https://github.com/Aoishi28/Stability-of-Causal-Graphs/blob/main/img/tetrad1.png)
+4. Then select the combination of hyperparameters as you want
+![image](https://github.com/Aoishi28/Stability-of-Causal-Graphs/blob/main/img/tetrad2.png)
+6. Finally select Run Search and Generate Graph and hover select the Edges tab to copy the relationship between edges
+![image](https://github.com/Aoishi28/Stability-of-Causal-Graphs/blob/main/img/tetrad3.png)
+   
 
