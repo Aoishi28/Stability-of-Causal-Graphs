@@ -2,22 +2,10 @@
 
 In this repository I have outlined the resouces required for conducting the experiment to check for the stability of causal graphs. 
 
-## Table of Contents
-- [Data](https://github.com/Aoishi28/Stability-of-Causal-Graphs/tree/main/data)
-- [Code](#code)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ## Data
 
-### [Data Folder](Link-to-your-data-folder)
-Here you can find all the data used in this project. 
-
-### Data Explanation
-This section explains the structure and type of data we're using. The data was sourced from [Data Source Name] and is crucial for [Project Purpose].
+### [Data Folder](https://github.com/Aoishi28/Stability-of-Causal-Graphs/tree/main/data)
+Here you can find all the data used in this project. So for running the experiment I dropped the first three columns from the original dataset. The first two columns had the same values for all rows and the third column had unique entries for all rows. Hence the files with Copy in their name were the updated versions that were used for the project. I chose 4 datasets : ant, synapse, ivy and camel.
 
 ## Code
 
