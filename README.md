@@ -9,29 +9,18 @@ Here you can find all the data used in this project. So for running the experime
 
 ## Code
 
-### File 1: `filename1.ext`
-This file is responsible for [describe the main functionality]. It contains functions such as [Function 1] and [Function 2] that [briefly describe what these functions do].
+### [File 1](https://github.com/Aoishi28/Stability-of-Causal-Graphs/blob/main/Calculate_Jaccard_coefficient.ipynb): `Calculate_Jaccard_coefficient.ipynb`
+This file is responsible for finding out the Jaccard coefficient betweeb two causal graphs. Here you just have to provide the relation between edges for the two graphs as two different inputs. Make sure that each new edge to edge relationship is in a new line. This code will output the Jaccard coefficient value.
 
-### File 2: `filename2.ext`
-In this file, we handle [describe its role]. The main components include [Component 1] and [Component 2], which are used for [describe purpose or functionality].
+### [File 2](https://github.com/Aoishi28/Stability-of-Causal-Graphs/blob/main/Data_generator_HOWSO.ipynb): `Data_generator_HOWSO.ipynb`
+In this file, we handle data synthesis using the HOWSO algorithm. The main components include passing the files and then changing the size of the oversampled data that we want.
 
-### File 3: `filename3.ext`
-This file's role is [describe its role]. It interacts with [mention other parts of the project] to [describe the outcome or purpose].
+### [File 3](https://github.com/Aoishi28/Stability-of-Causal-Graphs/blob/main/Generate_Jaccard_Graph.ipynb): `Generate_Jaccard_Graph.ipynb`
+This file's role is generating the final graph that show the distribution of Jaccard coeffcient values for each dataset.
 
-## Installation
-To set up this project, follow these steps:
-1. Clone the repo: `git clone [Repository URL]`
-2. Install required dependencies: `command to install dependencies`
-
-## Usage
+## Steps for using Tetrad
 To use this project, do the following:
 1. Step 1: [Description of step]
 2. Step 2: [Description of step]
 3. Example usage: `[example command or code snippet]`
 
-## Contributing
-Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`
